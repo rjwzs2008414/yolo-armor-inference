@@ -1,7 +1,7 @@
-*.pt
-*.mp4
-*.avi
-*.mov
-runs/
+﻿.venv/
+venv/
 __pycache__/
-.venv/
+*.py[cod]
+.idea/
+runs/
+*.log

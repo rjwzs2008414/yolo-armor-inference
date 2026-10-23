@@ -1,0 +1,18 @@
+{
+  "weights": "D:\\Python\\PythonProgect\\yolo-armor-inference\\models\\best.pt",
+  "imgsz": 640,
+  "device": "cpu",
+  "exports": [
+    {
+      "format": "onnx",
+      "path": "D:\\Python\\PythonProgect\\yolo-armor-inference\\models\\model.onnx",
+      "size_mb": 9.72
+    },
+    {
+      "format": "torchscript",
+      "path": "D:\\Python\\PythonProgect\\yolo-armor-inference\\models\\model.torchscript",
+      "size_mb": 9.94
+    }
+  ],
+  "errors": []
+}
