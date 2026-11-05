@@ -1,0 +1,6 @@
+blur_length_px,detections,best_conf,class_id,image
+1,1,0.79,0,results/motion_blur/blur_01.jpg
+5,1,0.678,0,results/motion_blur/blur_05.jpg
+11,0,0.0,-1,results/motion_blur/blur_11.jpg
+21,0,0.0,-1,results/motion_blur/blur_21.jpg
+31,0,0.0,-1,results/motion_blur/blur_31.jpg

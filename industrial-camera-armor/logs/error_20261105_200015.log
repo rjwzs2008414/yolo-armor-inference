@@ -1,0 +1,9 @@
+2026-11-05 20:00:17,367 INFO timeout test: started grabbing
+2026-11-05 20:00:17,369 INFO timeout test: expected timeout: MV_CC_GetImageBuffer timeout/error: 0x80000007
+2026-11-05 20:00:17,372 INFO timeout test: stopping grabbing
+2026-11-05 20:00:17,423 INFO timeout test: StopGrabbing/CloseDevice/DestroyHandle done
+2026-11-05 20:00:18,130 INFO format test: camera opened
+2026-11-05 20:00:18,145 INFO format test: BGR8 is supported
+2026-11-05 20:00:18,161 INFO format test: invalid PixelFormat return=0x80000101
+2026-11-05 20:00:18,162 INFO format test: closing camera
+2026-11-05 20:00:18,191 INFO format test: StopGrabbing/CloseDevice/DestroyHandle done

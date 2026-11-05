@@ -1,0 +1,7 @@
+2026-11-05 20:42:05,652 INFO model loaded: models/best.pt
+2026-11-05 20:42:05,652 INFO classes: {0: 'B1', 1: 'B2', 2: 'B3', 3: 'R1', 4: 'R2', 5: 'R3'}
+2026-11-05 20:42:07,547 INFO camera: CameraInfo(index=0, model='MV-CA016-10UC', serial='00L28498186', firmware='V1.6.3 201222 551351', interface='USB3', user_name='')
+2026-11-05 20:42:07,547 INFO settings: format=BayerRG8 exposure=30000.0us gain=12.0dB
+2026-11-05 20:42:14,438 INFO frames=30 fps=7.5 det=1 convert=1.14ms
+2026-11-05 20:42:19,408 INFO frames=60 fps=7.1 det=0 convert=1.61ms
+2026-11-05 20:42:20,750 INFO stopped after 67 frames

@@ -1,0 +1,28 @@
+{
+  "camera": {
+    "model": "MV-CA016-10UC",
+    "serial": "00L28498186",
+    "firmware": "V1.6.3 201222 551351",
+    "resolution": [1440, 1080],
+    "interface": "USB3"
+  },
+  "model": "YOLO26n-pose best.pt",
+  "classes": ["B1", "B2", "B3", "R1", "R2", "R3"],
+  "normal_compensated": {
+    "exposure_us": 30000,
+    "gain_db": 12,
+    "pixel_format": "BayerRG8",
+    "preprocess": "gamma=0.7, unsharp=1.2, bloom=180/31/1.0",
+    "imgsz": 960,
+    "confidence": 0.81,
+    "class": "B1",
+    "image": "results/detection_success.jpg",
+    "video": "results/live_demo_enhance.mp4"
+  },
+  "abnormal_short_exposure": [
+    {"exposure_us": 500, "gain_db": 0, "detections": 0},
+    {"exposure_us": 1000, "gain_db": 0, "detections": 0},
+    {"exposure_us": 3000, "gain_db": 0, "detections": 0}
+  ],
+  "note": "Armor plate LEDs are broken; short-exposure images are nearly black. The normal group uses long exposure + high gain + enhancement as a documented workaround."
+}
