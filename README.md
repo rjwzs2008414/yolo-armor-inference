@@ -1,4 +1,6 @@
-﻿# YOLO 装甲板模型导出、推理与性能对比
+# YOLO 装甲板模型导出、推理与性能对比
+
+> 新作业：工业相机装甲板实时识别见 [industrial-camera-armor](industrial-camera-armor/)。
 
 ## 1. 项目简介
 
