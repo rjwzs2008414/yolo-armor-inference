@@ -174,3 +174,32 @@ BayerRG8 带宽小，但 CPU 转换开销大；BGR8 原生输出省 CPU。
 - [x] 真实相机识别视频
 - [x] 实验记录 `docs/实验记录.md`
 - [ ] 按老师要求补充运动目标拖影对比图（需要人工移动装甲板）
+
+
+## 作业三：相机标定、PnP 与卡尔曼
+
+本仓库新增：
+
+```text
+calibration/calibrate_camera.py
+configs/camera.yaml
+detect/armor_pose.py
+main_pose.py
+tests/test_pose_pipeline.py
+docs/位姿估计与卡尔曼.md
+```
+
+完整流程：
+
+```text
+相机采集 → 装甲板识别 → 4 角点 → solvePnP → 卡尔曼滤波 → 位置/速度/预测
+```
+
+快速测试：
+
+```bash
+./run.sh tests/test_pose_pipeline.py
+./run.sh main_pose.py --source image --image results/detection_raw.jpg --calib configs/camera.yaml --enhance --headless --output results/pose_image.jpg
+```
+
+详细说明见 `docs/位姿估计与卡尔曼.md`。

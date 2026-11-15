@@ -21,3 +21,11 @@ results/experiments_dark/
 results/live_demo.mp4
 results/test_*.mp4
 !results/live_demo_enhance.mp4
+
+# pose estimation
+data/
+calibration/images/*
+!calibration/images/README.md
+results/pose_video_test*
+results/pose_image.jsonl
+!results/pose_video_demo.mp4

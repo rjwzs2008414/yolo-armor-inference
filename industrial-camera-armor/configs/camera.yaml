@@ -1,0 +1,20 @@
+# Camera calibration for Hikrobot MV-CA016-10UC (1440x1080).
+#
+# IMPORTANT: the intrinsics below are a PLACEHOLDER. Run
+#   ./.venv/bin/python calibration/calibrate_camera.py --images calibration/images
+# with a chessboard to replace them. PnP distances are only physically
+# meaningful after calibration.
+calibrated: false
+image_width: 1440
+image_height: 1080
+camera_matrix:
+  - [1224.0, 0.0, 720.0]
+  - [0.0, 1224.0, 540.0]
+  - [0.0, 0.0, 1.0]
+dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+armor:
+  # Measure YOUR plate. RM large armor is about 225 x 55 mm;
+  # small armor is about 135 x 55 mm. Override with CLI flags too.
+  width_m: 0.225
+  height_m: 0.055
