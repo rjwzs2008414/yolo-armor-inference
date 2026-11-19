@@ -215,3 +215,8 @@ git push
 - [x] `comparison.md` 包含模型大小、耗时、FPS、检测数量
 - [x] README 包含运行命令、环境、结果和格式分析
 - [x] 结果视频和模型文件已准备提交
+
+
+## ROS 2 作业
+
+- [ros2-homework](ros2-homework/)：同济导航课 Lecture 4 QoS Debugger
